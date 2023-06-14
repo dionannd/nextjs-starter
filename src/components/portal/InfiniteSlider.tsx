@@ -12,16 +12,16 @@ import {
 } from 'react-icons/rx';
 
 const LOGOS = [
-  <RxFigmaLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxFramerLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxSketchLogo key="" width={24} height={24} className=" text-slate-800" />,
-  <RxTwitterLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxGithubLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxVercelLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxNotionLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxDiscordLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxInstagramLogo key="" width={24} height={24} className="text-slate-800" />,
-  <RxLinkedinLogo key="" width={24} height={24} className="text-slate-800" />
+  <RxFigmaLogo key="1" size={24} className="text-slate-800" />,
+  <RxFramerLogo key="2" size={24} className="text-slate-800" />,
+  <RxSketchLogo key="3" size={24} className=" text-slate-800" />,
+  <RxTwitterLogo key="4" size={24} className="text-slate-800" />,
+  <RxGithubLogo key="5" size={24} className="text-slate-800" />,
+  <RxVercelLogo key="6" size={24} className="text-slate-800" />,
+  <RxNotionLogo key="7" size={24} className="text-slate-800" />,
+  <RxDiscordLogo key="8" size={24} className="text-slate-800" />,
+  <RxInstagramLogo key="9" size={24} className="text-slate-800" />,
+  <RxLinkedinLogo key="10" size={24} className="text-slate-800" />
 ];
 
 export default function InfiniteSlider() {

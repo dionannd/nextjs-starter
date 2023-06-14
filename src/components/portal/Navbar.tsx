@@ -1,6 +1,6 @@
 'use client';
 
-import { menus } from '@/app/routes';
+import { MENUS } from '@/app/routes';
 import clxsm from '@/lib/utils/clxsm';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
@@ -52,7 +52,7 @@ export default function Navbar() {
               >
                 <span className="h-full w-full rounded-xl bg-gray-300/30" />
               </span>
-              {menus.map((menu, index) => {
+              {MENUS.map((menu, index) => {
                 const isActive = activePageIndex === index;
 
                 return (
@@ -72,7 +72,7 @@ export default function Navbar() {
               })}
             </div>
             <div className="flex items-center gap-1 font-medium">
-              <Link href="/dashboard/login">
+              <Link href="/dashboard/signin">
                 <button className="rounded-full bg-black/70 px-5 py-2 text-white">Login</button>
               </Link>
 
