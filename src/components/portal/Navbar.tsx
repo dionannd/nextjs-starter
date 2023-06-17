@@ -5,6 +5,7 @@ import clxsm from '@/lib/utils/clxsm';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import TourComponent from '../Tour';
 
 export default function Navbar() {
   const [activePageIndex, setActivePageIndex] = useState<number | null>(null);
@@ -72,10 +73,10 @@ export default function Navbar() {
               })}
             </div>
             <div className="flex items-center gap-1 font-medium">
+              <TourComponent />
               <Link href="/dashboard/signin">
                 <button className="rounded-full bg-black/70 px-5 py-2 text-white">Login</button>
               </Link>
-
               <Link href="/dashboard/signup">
                 <button className="rounded-full border border-purple-500 bg-transparent px-5 py-2 text-purple-500 transition-all duration-300 hover:bg-purple-500 hover:text-white">
                   Register
