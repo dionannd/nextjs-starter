@@ -14,6 +14,10 @@ const TourComponent = () => {
     {
       selector: '.step-1',
       content: 'Ini adalah langkah 1.'
+    },
+    {
+      selector: '.step-2',
+      content: 'Ini adalah langkah 2.'
     }
   ]);
 

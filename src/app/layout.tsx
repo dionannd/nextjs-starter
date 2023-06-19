@@ -5,6 +5,7 @@ import '@/styles/fonts.css';
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Footer from '@/components/portal/Footer';
+import CookieAccept from '@/components/CookieConsent';
 
 const inter = Inter({ subsets: ['latin'] });
 
