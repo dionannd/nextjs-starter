@@ -15,9 +15,3 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-@layer base {
-  body {
-    @apply flex w-full flex-col items-center bg-[#f9f5f1] text-black;
-  }
-}

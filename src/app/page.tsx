@@ -1,13 +1,17 @@
-import TourComponent from '@/components/Tour';
-import InfiniteSlider from '@/components/portal/InfiniteSlider';
+'use client';
 
-export default function Home() {
+import { Input, Textarea } from '@nextui-org/react';
+import * as React from 'react';
+
+function page() {
   return (
-    <main className="container flex flex-col items-center justify-between">
-      <p className="step-1">Portal Pages</p>
-      <div className="step-2 flex items-center justify-center rounded-xl border border-slate-600/50  bg-white px-4 py-12">
-        <InfiniteSlider />
+    <div className="container mx-auto flex max-w-3xl flex-col py-10">
+      <div className="flex flex-col space-y-4">
+        <Input type="text" label="Buyer Name" />
+        <Textarea type="text" label="Buyer Name" />
       </div>
-    </main>
+    </div>
   );
 }
+
+export default page;
