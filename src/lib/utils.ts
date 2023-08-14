@@ -4,6 +4,6 @@ import { twMerge } from 'tailwind-merge';
 /**
  * Merge classes with tailwind-merge with clsx full feature
  */
-export default function clxsm(...classes: ClassValue[]) {
+export default function cn(...classes: ClassValue[]) {
   return twMerge(clsx(...classes));
 }
