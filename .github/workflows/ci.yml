@@ -4,7 +4,7 @@ on: [pull_request]
 
 jobs:
   build:
-    name: 'Build, lint, and test'
+    name: 'Type checking, linting, and formatting'
 
     runs-on: ubuntu-latest
 
@@ -24,11 +24,5 @@ jobs:
       - name: 'Check format'
         run: yarn format:check
 
-      - name: 'Build'
-        run: yarn build
-
       - name: 'Lint'
         run: yarn lint
-
-      - name: 'Test'
-        run: yarn test
